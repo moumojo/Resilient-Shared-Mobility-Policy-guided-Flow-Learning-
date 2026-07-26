@@ -1,0 +1,7 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.index binary
+*.data-00000-of-00001 binary

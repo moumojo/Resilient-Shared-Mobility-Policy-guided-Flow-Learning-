@@ -1,0 +1,9 @@
+name: pgfa
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - numpy==1.19.5
+      - tensorflow==2.5.0

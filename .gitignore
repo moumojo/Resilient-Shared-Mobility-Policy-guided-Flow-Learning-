@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Keep the release data-free.
+data/
+datasets/
+raw_data/
+*.npy
+*.npz
+!weights/**/*.index
+!weights/**/*.data-00000-of-00001
+
+# Local experiment outputs.
+runs/
+outputs/
+logs/
+verify/
+test_outputs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
