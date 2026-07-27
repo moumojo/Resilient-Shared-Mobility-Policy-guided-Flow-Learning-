@@ -1,6 +1,6 @@
-# Resilient Shared Mobility: Policy-guided Flow Learning for Ride-hailing Fleet Rebalancing under Limited Vehicle Availability
+# Policy-Guided Spatiotemporal Graph Learning: Direction-Aware Information Fusion for Urban Mobility Resource Allocation
 
-Official model, simulator, and checkpoint release for **Resilient Shared Mobility: Policy-guided Flow Learning for Ride-hailing Fleet Rebalancing under Limited Vehicle Availability**.
+Official model, simulator, and checkpoint release for **Policy-Guided Spatiotemporal Graph Learning: Direction-Aware Information Fusion for Urban Mobility Resource Allocation**.
 
 PGFA combines a Policy Flow Prior, Policy-guided Message passing, Flow-aware
 Attention, and actor--critic reinforcement learning for city-scale
