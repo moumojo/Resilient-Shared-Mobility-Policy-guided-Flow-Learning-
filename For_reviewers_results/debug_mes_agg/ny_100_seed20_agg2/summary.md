@@ -1,0 +1,26 @@
+- **method**: PGFA-NN
+- **environment**: CityReal
+- **implementation**: Dense_5 + learnable PFP/PGM/FAA + actor-critic
+- **data_split**: nyc
+- **seed**: 20
+- **episodes**: 20
+- **test_runs**: 10
+- **availability**: 1.0
+- **driver_scale**: 1.0
+- **effective_availability**: 1.0
+- **final_test_orr**: 0.8909150237334634
+- **final_test_orr_std**: 0.005564593584916077
+- **final_normalized_adi**: 141.13172213335466
+- **final_raw_adi**: 1816.69949671531
+- **final_raw_adi_std**: 22.706598607638234
+- **baseline_no_relocation_orr**: 0.7369366587601229
+- **baseline_no_relocation_adi**: 1287.2368233406235
+- **auc_orr_at_20**: 0.804343189541451
+- **episodes_to_85_orr**: -1
+- **final_loss**: -2.179532051086426
+- **final_value_loss**: 0.7101830244064331
+- **final_kl_loss**: 1.3945162296295166
+- **mean_kl_loss**: 1.6160864353179931
+- **mean_flow_drift**: 0.009653562381532133
+- **training_time_per_episode**: 16.75408821105957
+- **mean_dispatch_actions**: 18.349305555555553
