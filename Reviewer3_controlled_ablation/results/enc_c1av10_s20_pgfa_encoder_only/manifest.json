@@ -1,0 +1,104 @@
+{
+  "args": {
+    "episodes": "20",
+    "test_runs": "3",
+    "seed": "20",
+    "availability": "1.0",
+    "rho": "0.52",
+    "executor": "flow_alloc",
+    "eval_split": "train",
+    "arms": "pgfa_encoder_only",
+    "lr": "0.0005",
+    "update_epochs": "4",
+    "minibatch": "16",
+    "aux_coef": "1.0",
+    "aux_horizon": "3",
+    "aux_hops": "2",
+    "psi_stopgrad": "True",
+    "consistent": "True",
+    "local_input": "True",
+    "select": "best_train",
+    "pfp_scale": "2.0",
+    "output": "Minor\\results\\enc_c1av10_s20_pgfa_encoder_only"
+  },
+  "config": {
+    "hidden_dim": 128,
+    "layers": 2,
+    "gamma": 0.9,
+    "learning_rate": 0.0005,
+    "value_coef": 0.5,
+    "entropy_coef": 0.015,
+    "kl_coef": 0.02,
+    "flow_coef": 0.0,
+    "flow_loss_mode": "magnitude",
+    "prior_coef": 0.0,
+    "prior_logit_coef": 0.0,
+    "rho": 0.52,
+    "max_dispatch": 7,
+    "top_k": 2,
+    "reserve_base": 1.0,
+    "reserve_future": 0.35,
+    "reserve_neighbor": 0.18,
+    "source_guard": 0.72,
+    "flow_threshold": -0.08,
+    "demand_floor": 0.35,
+    "execution_mode": "policy_need",
+    "exec_need_coef": 0.55,
+    "exec_flow_coef": 1.1,
+    "exec_time_coef": 0.2,
+    "execution_aware_loss": true,
+    "greedy_eval": true,
+    "debug_logits": false,
+    "training_reward_mode": "fare",
+    "reward_response_coef": 1.0,
+    "reward_idle_coef": 0.2,
+    "reward_balance_coef": 0.2
+  },
+  "arms": {
+    "pgfa_both": [
+      "pgfa",
+      true,
+      true
+    ],
+    "pgfa_encoder_only": [
+      "pgfa",
+      true,
+      false
+    ],
+    "pgfa_execution_only": [
+      "pgfa",
+      false,
+      true
+    ],
+    "pgfa_neither": [
+      "pgfa",
+      false,
+      false
+    ],
+    "mean_gnn_both": [
+      "mean_gnn",
+      true,
+      true
+    ],
+    "mlp_both": [
+      "mlp",
+      true,
+      true
+    ],
+    "generic_gnn": [
+      "mean_gnn",
+      false,
+      true
+    ],
+    "mlp_plain": [
+      "mlp",
+      false,
+      false
+    ],
+    "gcn_plain": [
+      "mean_gnn",
+      false,
+      false
+    ]
+  }
+}
